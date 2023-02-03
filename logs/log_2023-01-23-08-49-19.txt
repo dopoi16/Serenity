@@ -1,0 +1,344 @@
+2023-01-23T20:49:19.9531956+03:00 [DEBG] root: Runtime: .NET 6.0.13 win10-x64
+2023-01-23T20:49:19.9540203+03:00 [DEBG] root: OS: Microsoft Windows 10.0.20348 X64
+2023-01-23T20:49:19.9561848+03:00 [INFO] srv: Name: moonash testing
+2023-01-23T20:49:19.9566066+03:00 [INFO] srv: TickRate: 60(16,67ms)
+2023-01-23T20:49:19.9567040+03:00 [INFO] srv: Max players: 32
+2023-01-23T20:49:19.9626570+03:00 [DEBG] auth: Public key is Xdnn3nLxeC+P7YmwkBSVlf9Dmgp5cAyv65owdbKYICg=
+2023-01-23T20:49:20.0483544+03:00 [DEBG] res: ENABLING assembly load context
+2023-01-23T20:49:20.0484604+03:00 [DEBG] res: DISABLING sandboxing
+2023-01-23T20:49:20.0546075+03:00 [DEBG] res.mod: LOADING modules
+2023-01-23T20:49:20.0592734+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.Database.dll'
+2023-01-23T20:49:20.0670963+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.dll'
+2023-01-23T20:49:20.0673945+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.Database.dll'
+2023-01-23T20:49:20.0675524+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.dll'
+2023-01-23T20:49:20.0785729+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.Database.dll'
+2023-01-23T20:49:20.0803415+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.Database.dll'
+2023-01-23T20:49:20.0826173+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.0843634+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.2046102+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T20:49:20.2046682+03:00 [DEBG] res: ResolvingAssembly Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T20:49:20.2064392+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.2064677+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.3130183+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T20:49:20.3130598+03:00 [DEBG] res: ResolvingAssembly Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T20:49:20.3836983+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.3837415+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.3861924+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.dll'
+2023-01-23T20:49:20.4038728+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.dll'
+2023-01-23T20:49:20.4348226+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.4348834+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.4453094+03:00 [DEBG] res.mod: DONE loading modules: 00:00:00.3903431
+2023-01-23T20:49:20.4457842+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.4458465+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.5096981+03:00 [INFO] szr: Serializer Types Hash: 4EDBE116B37860E0FFEA3E79DD650308030CC043B23889258D98E7F6D63073FC
+2023-01-23T20:49:20.7546294+03:00 [DEBG] admin.logs: Admin log converters found: EntityStringRepresentationConverter EntityUidConverter FixedPoint2Converter PlayerSessionConverter
+2023-01-23T20:49:20.7556230+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7556722+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7576911+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7577563+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7593991+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7594463+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7967972+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.7968550+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.8609449+03:00 [DEBG] db.manager: Using SQLite DB "C:\gameservers\gs4664\Server\data\preferences.db"
+2023-01-23T20:49:20.8638993+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Windows, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+2023-01-23T20:49:20.8640167+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Windows.SDK.NET, Culture=neutral, PublicKeyToken=null
+2023-01-23T20:49:20.8878514+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.8879230+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.9425901+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.resources, Version=6.0.5.0, Culture=ru-RU, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:20.9427672+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.resources, Version=6.0.5.0, Culture=ru, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:21.0856036+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:21.0856814+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:23.5134533+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Body.Prototypes.BodyPrototype since it has no parameterless ctor
+2023-01-23T20:49:23.7238404+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.CustomBaseLayerInfo since it has no parameterless ctor
+2023-01-23T20:49:23.7238867+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.HumanoidCharacterAppearance since it has no parameterless ctor
+2023-01-23T20:49:23.8659037+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Preferences.HumanoidCharacterProfile since it has no parameterless ctor
+2023-01-23T20:49:26.1626148+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Relational.resources, Version=6.0.5.0, Culture=ru-RU, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:26.1627452+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Relational.resources, Version=6.0.5.0, Culture=ru, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:26.1663587+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:26.1664597+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:49:31.8180654+03:00 [ERRO] eng: Exception whilst loading prototypes from /Prototypes/XenoArch/Effects/normal_effects.yml#0:
+Robust.Shared.Prototypes.PrototypeLoadException: Duplicate ID: 'EffectBadFeeling'
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFromMapping(MappingDataNode datanode, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 698
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFile(ResourcePath file, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 662
+2023-01-23T20:49:31.8193483+03:00 [ERRO] eng: Exception whilst loading prototypes from /Prototypes/XenoArch/Effects/utility_effects.yml#0:
+Robust.Shared.Prototypes.PrototypeLoadException: Duplicate ID: 'EffectPowerGen20K'
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFromMapping(MappingDataNode datanode, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 698
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFile(ResourcePath file, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 662
+2023-01-23T20:49:32.1022298+03:00 [ERRO] eng: Exception whilst loading prototypes from /Prototypes/Entities/Objects/Specific/Xenoarchaeology/structure_artifacts.yml#0:
+Robust.Shared.Prototypes.PrototypeLoadException: Duplicate ID: 'BaseXenoArtifact'
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFromMapping(MappingDataNode datanode, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 698
+   at Robust.Shared.Prototypes.PrototypeManager.LoadFile(ResourcePath file, Boolean overwrite, Dictionary`2 changed) in /home/runner/work/space-station-14/space-station-14/RobustToolbox/Robust.Shared/Prototypes/PrototypeManager.cs:line 662
+2023-01-23T20:49:35.9022504+03:00 [DEBG] map: Starting...
+2023-01-23T20:49:35.9309225+03:00 [INFO] ticker: Restarting round!
+2023-01-23T20:49:35.9365024+03:00 [DEBG] map: Restarting...
+2023-01-23T20:49:35.9548891+03:00 [INFO] ticker: Starting round!
+2023-01-23T20:49:35.9571610+03:00 [INFO] ticker: Added game rule Sandbox
+2023-01-23T20:49:35.9610909+03:00 [INFO] map: Creating new map 1
+2023-01-23T20:49:35.9903950+03:00 [DEBG] map: Binding map 1 to entity 1
+2023-01-23T20:49:35.9955377+03:00 [INFO] loader: No user map found: /Maps/kettle.yml
+2023-01-23T20:49:35.9989522+03:00 [INFO] loader: Loading Map: /Maps/kettle.yml
+2023-01-23T20:49:36.6963139+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.6973180
+2023-01-23T20:49:36.7066913+03:00 [DEBG] loader: Verified entities in 00:00:00.0087979
+2023-01-23T20:49:36.7084204+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000304
+2023-01-23T20:49:36.7770583+03:00 [DEBG] loader: Allocated 25866 entities in 00:00:00.0663153
+2023-01-23T20:49:58.7968545+03:00 [DEBG] loader: Loaded 25866 entities in 00:00:22.0185655
+2023-01-23T20:49:59.1828282+03:00 [DEBG] loader: Built entity hierarchy for 25866 entities in 00:00:00.3840001
+2023-01-23T20:49:59.1847925+03:00 [INFO] loader: Loading map file with a root node onto an existing map!
+2023-01-23T20:49:59.2013219+03:00 [INFO] map: Deleting map 1
+2023-01-23T20:49:59.2074444+03:00 [WARN] map: Setting map 1 root to entity 86, but entity thinks it is root node of map 11.
+2023-01-23T20:49:59.2074715+03:00 [DEBG] map: Setting map 1 entity to 86
+2023-01-23T20:49:59.2076869+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0229837
+2023-01-23T20:49:59.2565992+03:00 [DEBG] gsplit: Started split check for  (84)
+2023-01-23T20:49:59.2566839+03:00 [DEBG] gsplit: Stopped split check for  (84)
+2023-01-23T20:50:00.6220438+03:00 [DEBG] loader: Started up 25866 entities in 00:00:01.4106119
+2023-01-23T20:50:00.6220739+03:00 [DEBG] loader: Loaded map in 00:00:23.9257339
+2023-01-23T20:50:00.6437423+03:00 [INFO] map: Creating new map 2
+2023-01-23T20:50:00.6439739+03:00 [DEBG] map: Binding map 2 to entity 25869
+2023-01-23T20:50:00.6453114+03:00 [INFO] loader: No user map found: /Maps/Shuttles/cargo.yml
+2023-01-23T20:50:00.6453895+03:00 [INFO] loader: Loading Map: /Maps/Shuttles/cargo.yml
+2023-01-23T20:50:00.6516574+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.0062385
+2023-01-23T20:50:00.6517328+03:00 [DEBG] loader: Verified entities in 00:00:00.0000491
+2023-01-23T20:50:00.6517611+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000096
+2023-01-23T20:50:00.6521919+03:00 [DEBG] loader: Allocated 173 entities in 00:00:00.0004225
+2023-01-23T20:50:00.6795403+03:00 [DEBG] loader: Loaded 173 entities in 00:00:00.0273240
+2023-01-23T20:50:00.6796020+03:00 [DEBG] loader: Built entity hierarchy for 173 entities in 00:00:00.0000353
+2023-01-23T20:50:00.6805194+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0008972
+2023-01-23T20:50:00.6808744+03:00 [DEBG] gsplit: Started split check for  (25870)
+2023-01-23T20:50:00.6808892+03:00 [DEBG] gsplit: Stopped split check for  (25870)
+2023-01-23T20:50:00.7306019+03:00 [DEBG] loader: Started up 173 entities in 00:00:00.0500522
+2023-01-23T20:50:00.7306342+03:00 [DEBG] loader: Loaded map in 00:00:00.0789507
+2023-01-23T20:50:00.7313568+03:00 [INFO] cargo: Added cargo shuttle to ШаттлШаттл (25870)
+2023-01-23T20:50:00.7380289+03:00 [INFO] station: Set up station NT14 Kettle EV-049 (25868).
+2023-01-23T20:50:00.7408619+03:00 [INFO] station: Adding grid 84:84 to station NT14 Kettle EV-049 (25868)
+2023-01-23T20:50:00.7409205+03:00 [INFO] ticker: Loaded maps in 24 750,15ms.
+2023-01-23T20:50:00.7421624+03:00 [INFO] ticker: Started game rule Sandbox
+2023-01-23T20:50:01.2431018+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.resources, Version=6.0.5.0, Culture=ru-RU, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:50:01.2432221+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.resources, Version=6.0.5.0, Culture=ru, PublicKeyToken=adb9793829ddae60
+2023-01-23T20:50:01.3828506+03:00 [INFO] map: Creating new map 3
+2023-01-23T20:50:01.3830846+03:00 [DEBG] map: Binding map 3 to entity 26078
+2023-01-23T20:50:01.3832063+03:00 [INFO] loader: No user map found: /Maps/centcomm.yml
+2023-01-23T20:50:01.3832728+03:00 [INFO] loader: Loading Map: /Maps/centcomm.yml
+2023-01-23T20:50:01.5330412+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.1497410
+2023-01-23T20:50:01.5352918+03:00 [DEBG] loader: Verified entities in 00:00:00.0022136
+2023-01-23T20:50:01.5353210+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000095
+2023-01-23T20:50:01.5516470+03:00 [DEBG] loader: Allocated 6607 entities in 00:00:00.0163004
+2023-01-23T20:50:02.7001183+03:00 [DEBG] loader: Loaded 6607 entities in 00:00:01.1484134
+2023-01-23T20:50:02.7257069+03:00 [DEBG] loader: Built entity hierarchy for 6607 entities in 00:00:00.0255349
+2023-01-23T20:50:02.7261476+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0004141
+2023-01-23T20:50:02.7279764+03:00 [DEBG] gsplit: Started split check for  (26079)
+2023-01-23T20:50:02.7280010+03:00 [DEBG] gsplit: Stopped split check for  (26079)
+2023-01-23T20:50:03.3901017+03:00 [DEBG] loader: Started up 6607 entities in 00:00:00.6639233
+2023-01-23T20:50:03.3901284+03:00 [DEBG] loader: Loaded map in 00:00:01.8570650
+2023-01-23T20:50:03.3907977+03:00 [INFO] loader: No user map found: /Maps/Shuttles/emergency_courser.yml
+2023-01-23T20:50:03.3955906+03:00 [INFO] loader: Loading Map: /Maps/Shuttles/emergency_courser.yml
+2023-01-23T20:50:03.4131433+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.0175170
+2023-01-23T20:50:03.4134044+03:00 [DEBG] loader: Verified entities in 00:00:00.0001962
+2023-01-23T20:50:03.4134338+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000093
+2023-01-23T20:50:03.4150064+03:00 [DEBG] loader: Allocated 653 entities in 00:00:00.0015588
+2023-01-23T20:50:03.5229521+03:00 [DEBG] loader: Loaded 653 entities in 00:00:00.1079150
+2023-01-23T20:50:03.5232896+03:00 [DEBG] loader: Built entity hierarchy for 653 entities in 00:00:00.0003116
+2023-01-23T20:50:03.5233479+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0000477
+2023-01-23T20:50:03.5237782+03:00 [DEBG] gsplit: Started split check for  (34516)
+2023-01-23T20:50:03.5237929+03:00 [DEBG] gsplit: Stopped split check for  (34516)
+2023-01-23T20:50:03.5938155+03:00 [DEBG] loader: Started up 653 entities in 00:00:00.0704437
+2023-01-23T20:50:03.5938462+03:00 [DEBG] loader: Loaded map in 00:00:00.1806401
+2023-01-23T20:50:04.9075913+03:00 [DEBG] station: Station "NT14 Kettle EV-049" on extended access: True
+2023-01-23T20:50:04.9170730+03:00 [INFO] SERVER: OOC чат был отключен.
+2023-01-23T20:50:04.9639711+03:00 [INFO] hub: hub.server_url unset. Trying to determine IP address automatically...
+2023-01-23T20:50:05.0031308+03:00 [DEBG] szr: Finalized string mapping of size 1900 in 1ms
+2023-01-23T20:50:05.0086745+03:00 [DEBG] szr: Wrote string package in 4ms size 9,05 KiB
+2023-01-23T20:50:05.0088561+03:00 [DEBG] szr: String hash is PxRGTHzYD9APZwi7EXCIZSlTHYZABfY_5SrGYUhpALE
+2023-01-23T20:50:16.2246472+03:00 [INFO] root: Server Version 0.71.1.0 -> Ready
+2023-01-23T20:50:16.2304835+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-23T20:50:16.2626872+03:00 [INFO] statushost.http: GET /status from 176.212.104.130:52139
+2023-01-23T20:50:16.2761018+03:00 [INFO] statushost.http: GET /status from 79.134.69.223:61986
+2023-01-23T20:50:16.2763292+03:00 [INFO] statushost.http: GET /status from 217.107.115.72:31934
+2023-01-23T20:50:16.2764478+03:00 [INFO] statushost.http: GET /status from 185.210.143.195:12766
+2023-01-23T20:50:16.2765752+03:00 [INFO] statushost.http: GET /status from 82.147.167.49:59814
+2023-01-23T20:50:16.2766849+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:51696
+2023-01-23T20:50:16.2768578+03:00 [INFO] statushost.http: GET /status from 5.3.214.29:36438
+2023-01-23T20:50:16.2769759+03:00 [INFO] statushost.http: GET /status from 5.142.17.234:49896
+2023-01-23T20:50:16.2770814+03:00 [INFO] statushost.http: GET /status from 5.3.214.29:36306
+2023-01-23T20:50:16.2771885+03:00 [INFO] statushost.http: GET /status from 109.108.48.241:59347
+2023-01-23T20:50:16.2772961+03:00 [INFO] statushost.http: GET /status from 5.76.0.69:18678
+2023-01-23T20:50:16.2774012+03:00 [INFO] statushost.http: GET /status from 5.3.214.29:36340
+2023-01-23T20:50:16.2775031+03:00 [INFO] statushost.http: GET /status from 178.178.96.151:50092
+2023-01-23T20:50:16.8857348+03:00 [INFO] statushost.http: GET /status from 37.215.4.104:56305
+2023-01-23T20:50:17.1207012+03:00 [INFO] statushost.http: GET /status from 201.71.9.31:1092
+2023-01-23T20:50:17.6591399+03:00 [INFO] statushost.http: GET /status from 188.32.95.111:60544
+2023-01-23T20:50:17.8235412+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:52482
+2023-01-23T20:50:18.6915688+03:00 [INFO] statushost.http: GET /status from 5.3.214.29:36630
+2023-01-23T20:50:19.3396769+03:00 [INFO] statushost.http: GET /status from 5.187.69.56:2426
+2023-01-23T20:50:19.8520557+03:00 [INFO] statushost.http: GET /status from 194.12.33.204:50069
+2023-01-23T20:50:19.9664687+03:00 [INFO] statushost.http: GET /info from 5.3.214.29:36630
+2023-01-23T20:50:20.8773118+03:00 [INFO] statushost.http: GET /status from 188.162.64.30:21433
+2023-01-23T20:50:23.0368542+03:00 [INFO] statushost.http: GET /status from 188.162.64.30:21433
+2023-01-23T20:50:23.3704154+03:00 [INFO] hub: Guessed server address to be "ss14://193.164.16.103:11212/"
+2023-01-23T20:50:23.7274242+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:33312
+2023-01-23T20:50:23.7582314+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:33442
+2023-01-23T20:50:23.9409550+03:00 [INFO] statushost.http: GET /status from 61.106.220.36:64295
+2023-01-23T20:50:23.9927206+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:33540
+2023-01-23T20:50:24.1739217+03:00 [INFO] hub: Successfully advertised to hub with address "ss14://193.164.16.103:11212/"
+2023-01-23T20:50:24.2450407+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:53736
+2023-01-23T20:50:27.0141990+03:00 [INFO] statushost.http: GET /status from 93.75.50.233:50205
+2023-01-23T20:50:27.1101052+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:40994
+2023-01-23T20:50:27.5211520+03:00 [INFO] statushost.http: GET /status from 178.34.161.106:23063
+2023-01-23T20:50:27.6026182+03:00 [INFO] statushost.http: GET /status from 109.252.34.181:3895
+2023-01-23T20:50:27.8245838+03:00 [INFO] statushost.http: GET /status from 85.172.162.93:2175
+2023-01-23T20:50:28.2148151+03:00 [INFO] statushost.http: GET /status from 80.67.220.144:61424
+2023-01-23T20:50:30.1743209+03:00 [DEBG] res.mod: RESOLVING DEFAULT: System.Net.Sockets.resources, Version=6.0.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+2023-01-23T20:50:30.1744781+03:00 [DEBG] res.mod: RESOLVING DEFAULT: System.Net.Sockets.resources, Version=6.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+2023-01-23T20:50:30.6247602+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:55020
+2023-01-23T20:50:30.7193921+03:00 [INFO] statushost.http: GET /status from 86.31.204.228:57264
+2023-01-23T20:50:31.7332036+03:00 [INFO] statushost.http: GET /status from 102.165.76.46:26166
+2023-01-23T20:50:32.4288242+03:00 [INFO] statushost.http: GET /status from 212.220.113.74:55926
+2023-01-23T20:50:33.3561269+03:00 [INFO] statushost.http: GET /status from 172.107.95.27:58813
+2023-01-23T20:50:33.8704510+03:00 [INFO] statushost.http: GET /status from 85.172.162.93:2175
+2023-01-23T20:50:34.0165837+03:00 [INFO] statushost.http: GET /status from 86.31.204.228:57264
+2023-01-23T20:50:34.1296506+03:00 [INFO] statushost.http: GET /status from 172.107.95.27:58813
+2023-01-23T20:50:36.9262105+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:56374
+2023-01-23T20:50:37.4151184+03:00 [INFO] statushost.http: GET /status from 181.61.89.254:52193
+2023-01-23T20:50:37.6203281+03:00 [INFO] statushost.http: GET /status from 176.64.31.150:21519
+2023-01-23T20:50:38.4174982+03:00 [INFO] statushost.http: GET /status from 81.170.60.243:63421
+2023-01-23T20:50:39.4384814+03:00 [INFO] statushost.http: GET /status from 77.222.117.107:58057
+2023-01-23T20:50:39.7527973+03:00 [INFO] statushost.http: GET /status from 139.28.52.81:60577
+2023-01-23T20:50:41.7566372+03:00 [INFO] statushost.http: GET /status from 217.17.122.135:62275
+2023-01-23T20:50:42.2631588+03:00 [INFO] statushost.http: GET /status from 171.33.254.172:61374
+2023-01-23T20:50:42.7730113+03:00 [DEBG] net: "5.3.214.29:36593": Status changed to RespondedAwaitingApproval, reason: "Awaiting approval"
+2023-01-23T20:50:42.7759046+03:00 [DEBG] net: "5.3.214.29:36593": Status changed to RespondedConnect, reason: "Remotely requested connect"
+2023-01-23T20:50:42.8034654+03:00 [DEBG] net: "5.3.214.29:36593": Status changed to Connected, reason: "Connected to 64A896A53C30388F"
+2023-01-23T20:50:43.1138996+03:00 [INFO] statushost.http: GET /status from 145.255.8.190:24576
+2023-01-23T20:50:43.3534507+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:57698
+2023-01-23T20:50:43.9049942+03:00 [INFO] net: Approved "5.3.214.29:36593" with username "moonash" user ID "a2f0ed7c-7138-4d69-9c22-5c9ba469432e" into the server
+2023-01-23T20:50:43.9074948+03:00 [INFO] net: Sending message name string table to 5.3.214.29.
+2023-01-23T20:50:43.9116909+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-23T20:50:43.9507367+03:00 [DEBG] szr: Received handshake from moonash.
+2023-01-23T20:50:43.9508123+03:00 [DEBG] szr: Sending 9265 bytes sized mapped strings package to moonash.
+2023-01-23T20:50:44.0074929+03:00 [DEBG] szr: Received handshake from moonash.
+2023-01-23T20:50:44.0075183+03:00 [DEBG] szr: Completing handshake with moonash.
+2023-01-23T20:50:44.0078421+03:00 [INFO] net: "5.3.214.29:36593": Connected
+2023-01-23T20:50:44.0109114+03:00 [INFO] cfg: 5.3.214.29:36593/a2f0ed7c-7138-4d69-9c22-5c9ba469432e: Sending server info...
+2023-01-23T20:50:44.0601352+03:00 [DEBG] srv: Client connecting, unpausing automatically.
+2023-01-23T20:50:44.3585703+03:00 [INFO] statushost.http: GET /status from 145.255.8.190:24557
+2023-01-23T20:50:44.3880588+03:00 [INFO] root: Session moonash transferred to entity 41790.
+2023-01-23T20:50:44.7063429+03:00 [DEBG] nodegroup: Updated node groups in 107,5215ms. 6234 new groups, 19965 nodes processed.
+2023-01-23T20:50:44.9156997+03:00 [DEBG] admin.logs: Saving 21 admin logs.
+2023-01-23T20:50:45.1575282+03:00 [INFO] statushost.http: GET /status from 5.187.69.56:8102
+2023-01-23T20:50:45.5036273+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -6, msgT: 0, cT: 6, player: moonash
+2023-01-23T20:50:45.5048981+03:00 [DEBG] info: Client requested rules.
+2023-01-23T20:50:47.4439372+03:00 [INFO] statushost.http: GET /status from 93.80.4.238:50773
+2023-01-23T20:50:49.6530267+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:59150
+2023-01-23T20:50:49.7196279+03:00 [INFO] statushost.http: GET /status from 80.67.220.144:61473
+2023-01-23T20:50:49.8516235+03:00 [DEBG] admin.logs: Saving 3 admin logs.
+2023-01-23T20:50:54.4334492+03:00 [INFO] statushost.http: GET /status from 37.215.4.104:38173
+2023-01-23T20:50:56.0759597+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:60566
+2023-01-23T20:50:56.3742997+03:00 [INFO] statushost.http: GET /status from 176.192.170.76:53356
+2023-01-23T20:50:56.7113876+03:00 [INFO] root: Session moonash transferred to entity 41824.
+2023-01-23T20:50:59.5104258+03:00 [INFO] statushost.http: GET /status from 37.18.41.208:54262
+2023-01-23T20:50:59.9389126+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -9, msgT: 868, cT: 877, player: moonash
+2023-01-23T20:50:59.9389747+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -9, msgT: 868, cT: 877, player: moonash
+2023-01-23T20:51:00.2401335+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -9, msgT: 886, cT: 895, player: moonash
+2023-01-23T20:51:00.8702725+03:00 [INFO] statushost.http: GET /status from 213.24.134.117:2006
+2023-01-23T20:51:01.2583924+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -7, msgT: 949, cT: 956, player: moonash
+2023-01-23T20:51:01.2584677+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -7, msgT: 949, cT: 956, player: moonash
+2023-01-23T20:51:02.3845069+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:33540
+2023-01-23T20:51:03.0714829+03:00 [INFO] statushost.http: GET /status from 176.59.116.242:8391
+2023-01-23T20:51:03.5233971+03:00 [INFO] statushost.http: GET /status from 93.157.177.133:5833
+2023-01-23T20:51:03.6140671+03:00 [INFO] statushost.http: GET /status from 61.106.220.36:64434
+2023-01-23T20:51:03.8988604+03:00 [INFO] statushost.http: GET /status from 213.24.134.117:2006
+2023-01-23T20:51:04.4476961+03:00 [INFO] statushost.http: GET /status from 37.145.174.246:16678
+2023-01-23T20:51:06.2005733+03:00 [INFO] statushost.http: GET /status from 45.94.119.158:3616
+2023-01-23T20:51:06.6375424+03:00 [INFO] statushost.http: GET /status from 176.192.170.76:53416
+2023-01-23T20:51:07.1636855+03:00 [INFO] statushost.http: GET /status from 91.122.30.63:65367
+2023-01-23T20:51:07.2790230+03:00 [INFO] statushost.http: GET /status from 185.9.187.154:61042
+2023-01-23T20:51:07.8766232+03:00 [INFO] statushost.http: GET /status from 37.215.4.104:38173
+2023-01-23T20:51:08.6856801+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:34778
+2023-01-23T20:51:09.9386062+03:00 [INFO] statushost.http: GET /status from 81.170.60.243:63545
+2023-01-23T20:51:10.3446999+03:00 [INFO] statushost.http: GET /status from 159.224.248.22:59205
+2023-01-23T20:51:10.4542431+03:00 [INFO] statushost.http: GET /status from 176.192.170.76:53416
+2023-01-23T20:51:11.5460194+03:00 [INFO] statushost.http: GET /status from 109.108.48.241:59459
+2023-01-23T20:51:11.7771586+03:00 [INFO] statushost.http: GET /status from 185.99.6.35:37990
+2023-01-23T20:51:12.8359341+03:00 [INFO] statushost.http: GET /status from 187.61.117.162:53316
+2023-01-23T20:51:15.0032213+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:36204
+2023-01-23T20:51:16.2238884+03:00 [INFO] statushost.http: GET /status from 91.145.145.72:64139
+2023-01-23T20:51:17.6595275+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -1, msgT: 1939, cT: 1940, player: moonash
+2023-01-23T20:51:18.5538345+03:00 [INFO] statushost.http: GET /status from 185.9.187.154:61042
+2023-01-23T20:51:21.3108038+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:37714
+2023-01-23T20:51:21.7142521+03:00 [INFO] statushost.http: GET /status from 37.204.224.238:54755
+2023-01-23T20:51:23.0253376+03:00 [INFO] statushost.http: GET /status from 93.81.206.210:49903
+2023-01-23T20:51:23.7349024+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:34544
+2023-01-23T20:51:23.7443121+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:34596
+2023-01-23T20:51:25.4616781+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -1, msgT: 2407, cT: 2408, player: moonash
+2023-01-23T20:51:26.3503966+03:00 [INFO] statushost.http: GET /status from 104.28.192.94:35411
+2023-01-23T20:51:27.7615102+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:39036
+2023-01-23T20:51:28.1889765+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-23T20:51:28.2691645+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -1, msgT: 2574, cT: 2575, player: moonash
+2023-01-23T20:51:28.8489984+03:00 [INFO] statushost.http: GET /status from 104.28.192.94:35411
+2023-01-23T20:51:29.0485091+03:00 [INFO] statushost.http: GET /status from 181.61.89.254:52245
+2023-01-23T20:51:30.5106230+03:00 [INFO] statushost.http: GET /status from 109.252.34.181:3854
+2023-01-23T20:51:32.4032010+03:00 [INFO] statushost.http: GET /status from 46.165.60.230:49204
+2023-01-23T20:51:33.2744883+03:00 [INFO] statushost.http: GET /status from 5.142.17.234:54496
+2023-01-23T20:51:33.8916089+03:00 [INFO] statushost.http: GET /status from 93.177.214.140:51534
+2023-01-23T20:51:34.0705802+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:40180
+2023-01-23T20:51:34.8742971+03:00 [INFO] statushost.http: GET /status from 2.133.241.64:17297
+2023-01-23T20:51:35.5259492+03:00 [INFO] statushost.http: GET /status from 93.81.206.210:49903
+2023-01-23T20:51:36.9294586+03:00 [INFO] statushost.http: GET /status from 93.177.214.140:51534
+2023-01-23T20:51:37.5699428+03:00 [INFO] statushost.http: GET /status from 37.214.49.138:11638
+2023-01-23T20:51:37.8368007+03:00 [INFO] statushost.http: GET /status from 195.245.244.51:49233
+2023-01-23T20:51:38.2172431+03:00 [INFO] statushost.http: GET /status from 94.140.132.50:3861
+2023-01-23T20:51:40.2990655+03:00 [INFO] statushost.http: GET /status from 95.72.7.87:53930
+2023-01-23T20:51:40.3658422+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:41514
+2023-01-23T20:51:45.2431464+03:00 [INFO] statushost.http: GET /status from 93.81.206.210:49903
+2023-01-23T20:51:45.6619868+03:00 [INFO] statushost.http: GET /status from 91.237.182.241:50491
+2023-01-23T20:51:45.9488484+03:00 [INFO] statushost.http: GET /status from 89.186.159.74:27266
+2023-01-23T20:51:46.6756461+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:42698
+2023-01-23T20:51:48.4286407+03:00 [INFO] statushost.http: GET /status from 5.227.13.200:62597
+2023-01-23T20:51:50.4624354+03:00 [INFO] statushost.http: GET /status from 136.169.224.127:40803
+2023-01-23T20:51:50.9598687+03:00 [INFO] statushost.http: GET /status from 95.29.55.60:51235
+2023-01-23T20:51:51.2124892+03:00 [INFO] statushost.http: GET /status from 82.147.167.49:59899
+2023-01-23T20:51:52.4054549+03:00 [INFO] statushost.http: GET /status from 94.25.234.23:56761
+2023-01-23T20:51:52.9885511+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:44108
+2023-01-23T20:51:53.8439610+03:00 [INFO] statushost.http: GET /status from 178.178.96.151:7699
+2023-01-23T20:51:56.1763044+03:00 [INFO] statushost.http: GET /status from 93.81.206.210:49903
+2023-01-23T20:51:58.3675176+03:00 [INFO] statushost.http: GET /status from 176.105.211.86:18600
+2023-01-23T20:51:58.9100007+03:00 [INFO] statushost.http: GET /status from 188.32.95.111:60846
+2023-01-23T20:51:59.2863151+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:45512
+2023-01-23T20:52:00.3384156+03:00 [INFO] statushost.http: GET /status from 2.133.241.64:17357
+2023-01-23T20:52:03.9945844+03:00 [INFO] statushost.http: GET /status from 46.138.30.226:1930
+2023-01-23T20:52:04.9892923+03:00 [INFO] statushost.http: GET /status from 176.124.162.169:61397
+2023-01-23T20:52:05.6049498+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:46800
+2023-01-23T20:52:06.2532958+03:00 [INFO] statushost.http: GET /status from 185.248.130.152:65230
+2023-01-23T20:52:06.4853565+03:00 [INFO] statushost.http: GET /status from 98.171.22.173:49245
+2023-01-23T20:52:06.4895255+03:00 [INFO] statushost.http: GET /status from 80.83.234.149:29148
+2023-01-23T20:52:08.1826785+03:00 [INFO] statushost.http: GET /status from 176.77.112.69:52344
+2023-01-23T20:52:09.4865652+03:00 [INFO] statushost.http: GET /status from 188.32.95.111:60846
+2023-01-23T20:52:09.7907750+03:00 [INFO] statushost.http: GET /status from 93.81.206.210:49903
+2023-01-23T20:52:10.3440744+03:00 [INFO] statushost.http: GET /status from 86.137.169.185:59300
+2023-01-23T20:52:10.9024277+03:00 [INFO] con: moonash:ghostroles
+2023-01-23T20:52:11.9071761+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:48138
+2023-01-23T20:52:12.0340316+03:00 [INFO] statushost.http: GET /status from 188.66.34.131:43104
+2023-01-23T20:52:14.0827216+03:00 [INFO] statushost.http: GET /status from 109.106.137.63:56202
+2023-01-23T20:52:14.8734238+03:00 [INFO] statushost.http: GET /status from 46.165.60.230:49249
+2023-01-23T20:52:15.5946744+03:00 [INFO] statushost.http: GET /status from 176.77.112.69:52344
+2023-01-23T20:52:16.0530887+03:00 [INFO] statushost.http: GET /status from 213.208.174.51:3441
+2023-01-23T20:52:16.8098346+03:00 [INFO] statushost.http: GET /status from 95.73.137.109:61521
+2023-01-23T20:52:16.9998971+03:00 [INFO] statushost.http: GET /status from 77.222.117.107:58213
+2023-01-23T20:52:17.7375223+03:00 [INFO] statushost.http: GET /status from 213.208.174.51:3441
+2023-01-23T20:52:17.9142623+03:00 [INFO] statushost.http: GET /status from 77.222.117.107:58213
+2023-01-23T20:52:18.2120725+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:49230
+2023-01-23T20:52:21.8485257+03:00 [INFO] statushost.http: GET /status from 77.222.117.107:58213
+2023-01-23T20:52:21.8846048+03:00 [INFO] statushost.http: GET /status from 198.30.252.248:3497
+2023-01-23T20:52:23.6386371+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:35660
+2023-01-23T20:52:23.7322488+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:35762
+2023-01-23T20:52:24.7778846+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:35696
+2023-01-23T20:52:27.6482200+03:00 [INFO] statushost.http: GET /status from 93.177.214.140:51604
+2023-01-23T20:52:27.7970133+03:00 [INFO] statushost.http: GET /status from 81.162.123.170:49914
+2023-01-23T20:52:31.9879697+03:00 [INFO] statushost.http: GET /status from 217.66.20.148:62274
+2023-01-23T20:52:34.9784515+03:00 [INFO] statushost.http: GET /status from 37.215.37.142:51106
+2023-01-23T20:52:35.3953539+03:00 [INFO] statushost.http: GET /status from 46.39.54.63:47111
+2023-01-23T20:52:37.8793490+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:53230
+2023-01-23T20:52:39.1764950+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:53458
+2023-01-23T20:52:41.0489288+03:00 [INFO] statushost.http: GET /status from 85.140.3.220:24339
+2023-01-23T20:52:43.1671282+03:00 [INFO] statushost.http: GET /status from 79.139.155.50:3587
+2023-01-23T20:52:43.8475327+03:00 [INFO] srv: CancelKey, shutting down...

@@ -1,0 +1,537 @@
+2023-01-23T15:01:00.6960807+03:00 [DEBG] root: Runtime: .NET 6.0.13 win10-x64
+2023-01-23T15:01:00.6969420+03:00 [DEBG] root: OS: Microsoft Windows 10.0.20348 X64
+2023-01-23T15:01:00.6992558+03:00 [INFO] srv: Name: moonash testing
+2023-01-23T15:01:00.6997158+03:00 [INFO] srv: TickRate: 60(16,67ms)
+2023-01-23T15:01:00.6997872+03:00 [INFO] srv: Max players: 32
+2023-01-23T15:01:00.7691041+03:00 [DEBG] auth: Public key is L2qnHUpPPrUae20WARumEwNr1bdB/kfzcT+bRfY0pQY=
+2023-01-23T15:01:00.9403851+03:00 [DEBG] res: ENABLING assembly load context
+2023-01-23T15:01:00.9404790+03:00 [DEBG] res: DISABLING sandboxing
+2023-01-23T15:01:00.9603144+03:00 [DEBG] res.mod: LOADING modules
+2023-01-23T15:01:00.9652168+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.Database.dll'
+2023-01-23T15:01:01.0122785+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Server.dll'
+2023-01-23T15:01:01.1115836+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.Database.dll'
+2023-01-23T15:01:01.1215807+03:00 [DEBG] res.mod: Found module '/Assemblies/Content.Shared.dll'
+2023-01-23T15:01:01.2147147+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.Database.dll'
+2023-01-23T15:01:01.2166300+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.Database.dll'
+2023-01-23T15:01:01.2191019+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:01.2208881+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:01.4756127+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T15:01:01.4756829+03:00 [DEBG] res: ResolvingAssembly Npgsql.EntityFrameworkCore.PostgreSQL, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T15:01:01.6146808+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:01.6147403+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Relational, Version=6.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:01.8272278+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T15:01:01.8272823+03:00 [DEBG] res: ResolvingAssembly Npgsql, Version=6.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7
+2023-01-23T15:01:02.0046135+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.0046778+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.1001247+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Shared.dll'
+2023-01-23T15:01:02.1170609+03:00 [DEBG] res.mod: Loading module: '/Assemblies/Content.Server.dll'
+2023-01-23T15:01:02.1481747+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.1482330+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.2232578+03:00 [DEBG] res.mod: DONE loading modules: 00:00:01.2625735
+2023-01-23T15:01:02.2403537+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.2404195+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Abstractions, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.3442642+03:00 [INFO] szr: Serializer Types Hash: 82C4770FAD74B956DF6A807F16045CBD38E64C2F70C9945B51CFF8CAED7F0384
+2023-01-23T15:01:02.8150987+03:00 [DEBG] admin.logs: Admin log converters found: EntityStringRepresentationConverter EntityUidConverter FixedPoint2Converter PlayerSessionConverter
+2023-01-23T15:01:02.8161324+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.8161887+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.9420760+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:02.9421444+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.0864124+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.0864855+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.2304658+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.2305411+03:00 [DEBG] res: ResolvingAssembly Microsoft.EntityFrameworkCore.Sqlite, Version=6.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.3601157+03:00 [DEBG] db.manager: Using SQLite DB "C:\gameservers\gs4664\Server\data\preferences.db"
+2023-01-23T15:01:03.4533930+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Windows, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+2023-01-23T15:01:03.4535171+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Windows.SDK.NET, Culture=neutral, PublicKeyToken=null
+2023-01-23T15:01:03.4777947+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.4778641+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.6769072+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.6769923+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Caching.Memory, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:03.9820017+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Body.Prototypes.BodyPrototype since it has no parameterless ctor
+2023-01-23T15:01:04.0487852+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.CustomBaseLayerInfo since it has no parameterless ctor
+2023-01-23T15:01:04.0488214+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Humanoid.HumanoidCharacterAppearance since it has no parameterless ctor
+2023-01-23T15:01:04.0771420+03:00 [DEBG] serialization: Skipping registering data definition for type Content.Shared.Preferences.HumanoidCharacterProfile since it has no parameterless ctor
+2023-01-23T15:01:06.3221760+03:00 [DEBG] res.mod: RESOLVING DEFAULT: Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:06.3222417+03:00 [DEBG] res: ResolvingAssembly Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-23T15:01:14.1233759+03:00 [DEBG] map: Starting...
+2023-01-23T15:01:14.1531486+03:00 [INFO] ticker: Restarting round!
+2023-01-23T15:01:14.1583054+03:00 [DEBG] map: Restarting...
+2023-01-23T15:01:14.1764398+03:00 [INFO] ticker: Starting round!
+2023-01-23T15:01:14.1788315+03:00 [INFO] ticker: Added game rule Sandbox
+2023-01-23T15:01:14.1827649+03:00 [INFO] map: Creating new map 1
+2023-01-23T15:01:14.2243354+03:00 [DEBG] map: Binding map 1 to entity 1
+2023-01-23T15:01:14.2274630+03:00 [INFO] loader: No user map found: /Maps/cluster.yml
+2023-01-23T15:01:14.2317741+03:00 [INFO] loader: Loading Map: /Maps/cluster.yml
+2023-01-23T15:01:14.4553159+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.2234244
+2023-01-23T15:01:14.4600733+03:00 [DEBG] loader: Verified entities in 00:00:00.0031249
+2023-01-23T15:01:14.4617882+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000277
+2023-01-23T15:01:14.5046132+03:00 [DEBG] loader: Allocated 8731 entities in 00:00:00.0405547
+2023-01-23T15:01:15.4882312+03:00 [DEBG] loader: Loaded 8731 entities in 00:00:00.9824389
+2023-01-23T15:01:15.5370748+03:00 [DEBG] loader: Built entity hierarchy for 8731 entities in 00:00:00.0469210
+2023-01-23T15:01:15.5390397+03:00 [WARN] loader: Loading map file with a root node onto an existing map!
+2023-01-23T15:01:15.5570472+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0181128
+2023-01-23T15:01:15.5605794+03:00 [INFO] map: Binding grid 129 to entity 129
+2023-01-23T15:01:15.6066064+03:00 [DEBG] gsplit: Started split check for  (129)
+2023-01-23T15:01:15.6066528+03:00 [DEBG] gsplit: Stopped split check for  (129)
+2023-01-23T15:01:16.4997651+03:00 [DEBG] loader: Started up 8731 entities in 00:00:00.9322276
+2023-01-23T15:01:16.4997951+03:00 [DEBG] loader: Loaded map in 00:00:02.0444587
+2023-01-23T15:01:16.5167900+03:00 [INFO] map: Creating new map 2
+2023-01-23T15:01:16.5170138+03:00 [DEBG] map: Binding map 2 to entity 8734
+2023-01-23T15:01:16.5182792+03:00 [INFO] loader: No user map found: /Maps/Shuttles/cargo.yml
+2023-01-23T15:01:16.5232135+03:00 [INFO] loader: Loading Map: /Maps/Shuttles/cargo.yml
+2023-01-23T15:01:16.5263412+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.0031045
+2023-01-23T15:01:16.5263921+03:00 [DEBG] loader: Verified entities in 00:00:00.0000375
+2023-01-23T15:01:16.5264049+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000041
+2023-01-23T15:01:16.5267821+03:00 [DEBG] loader: Allocated 173 entities in 00:00:00.0003708
+2023-01-23T15:01:16.5403187+03:00 [DEBG] loader: Loaded 173 entities in 00:00:00.0135201
+2023-01-23T15:01:16.5403728+03:00 [DEBG] loader: Built entity hierarchy for 173 entities in 00:00:00.0000342
+2023-01-23T15:01:16.5404008+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0000222
+2023-01-23T15:01:16.5404221+03:00 [INFO] map: Binding grid 8735 to entity 8735
+2023-01-23T15:01:16.5408259+03:00 [DEBG] gsplit: Started split check for  (8735)
+2023-01-23T15:01:16.5408372+03:00 [DEBG] gsplit: Stopped split check for  (8735)
+2023-01-23T15:01:16.6266242+03:00 [DEBG] loader: Started up 173 entities in 00:00:00.0861091
+2023-01-23T15:01:16.6266446+03:00 [DEBG] loader: Loaded map in 00:00:00.1002902
+2023-01-23T15:01:16.6272797+03:00 [INFO] cargo: Added cargo shuttle to ShuttleShuttle (8735)
+2023-01-23T15:01:16.6335573+03:00 [INFO] station: Set up station NT14 Cluster Station NX-439 (8733).
+2023-01-23T15:01:16.6362192+03:00 [INFO] station: Adding grid 129:129 to station NT14 Cluster Station NX-439 (8733)
+2023-01-23T15:01:16.6362717+03:00 [INFO] ticker: Loaded maps in 2,411.57ms.
+2023-01-23T15:01:16.6373992+03:00 [INFO] ticker: Started game rule Sandbox
+2023-01-23T15:01:17.2376895+03:00 [INFO] map: Creating new map 3
+2023-01-23T15:01:17.2378832+03:00 [DEBG] map: Binding map 3 to entity 8943
+2023-01-23T15:01:17.2379953+03:00 [INFO] loader: No user map found: /Maps/centcomm.yml
+2023-01-23T15:01:17.2421001+03:00 [INFO] loader: Loading Map: /Maps/centcomm.yml
+2023-01-23T15:01:17.3946084+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.1524743
+2023-01-23T15:01:17.3967899+03:00 [DEBG] loader: Verified entities in 00:00:00.0021529
+2023-01-23T15:01:17.3968203+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000064
+2023-01-23T15:01:17.4287182+03:00 [DEBG] loader: Allocated 6607 entities in 00:00:00.0318801
+2023-01-23T15:01:18.1504005+03:00 [DEBG] loader: Loaded 6607 entities in 00:00:00.7216478
+2023-01-23T15:01:18.1760131+03:00 [DEBG] loader: Built entity hierarchy for 6607 entities in 00:00:00.0255774
+2023-01-23T15:01:18.1764634+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0004222
+2023-01-23T15:01:18.1765355+03:00 [INFO] map: Binding grid 8944 to entity 8944
+2023-01-23T15:01:18.1788718+03:00 [DEBG] gsplit: Started split check for  (8944)
+2023-01-23T15:01:18.1788961+03:00 [DEBG] gsplit: Stopped split check for  (8944)
+2023-01-23T15:01:18.8036696+03:00 [DEBG] loader: Started up 6607 entities in 00:00:00.6264108
+2023-01-23T15:01:18.8036947+03:00 [DEBG] loader: Loaded map in 00:00:01.4090626
+2023-01-23T15:01:18.8040305+03:00 [INFO] loader: No user map found: /Maps/Shuttles/emergency.yml
+2023-01-23T15:01:18.8089781+03:00 [INFO] loader: Loading Map: /Maps/Shuttles/emergency.yml
+2023-01-23T15:01:18.8156353+03:00 [DEBG] loader: Loaded yml stream in 00:00:00.0066305
+2023-01-23T15:01:18.8157519+03:00 [DEBG] loader: Verified entities in 00:00:00.0001002
+2023-01-23T15:01:18.8157679+03:00 [DEBG] loader: Read tilemap in 00:00:00.0000054
+2023-01-23T15:01:18.8175254+03:00 [DEBG] loader: Allocated 403 entities in 00:00:00.0017444
+2023-01-23T15:01:18.8609104+03:00 [DEBG] loader: Loaded 403 entities in 00:00:00.0433626
+2023-01-23T15:01:18.8610665+03:00 [DEBG] loader: Built entity hierarchy for 403 entities in 00:00:00.0001325
+2023-01-23T15:01:18.8610987+03:00 [DEBG] loader: Swapped out root node in 00:00:00.0000249
+2023-01-23T15:01:18.8611192+03:00 [INFO] map: Binding grid 17361 to entity 17361
+2023-01-23T15:01:18.8615163+03:00 [DEBG] gsplit: Started split check for  (17361)
+2023-01-23T15:01:18.8615273+03:00 [DEBG] gsplit: Stopped split check for  (17361)
+2023-01-23T15:01:18.9292405+03:00 [DEBG] loader: Started up 403 entities in 00:00:00.0680072
+2023-01-23T15:01:18.9292634+03:00 [DEBG] loader: Loaded map in 00:00:00.1136119
+2023-01-23T15:01:19.4455171+03:00 [DEBG] station: Station "NT14 Cluster Station NX-439" on extended access: True
+2023-01-23T15:01:19.4543548+03:00 [INFO] SERVER: OOC chat has been disabled.
+2023-01-23T15:01:19.5347634+03:00 [INFO] hub: hub.server_url unset. Trying to determine IP address automatically...
+2023-01-23T15:01:19.6802400+03:00 [DEBG] szr: Finalized string mapping of size 91672 in 109ms
+2023-01-23T15:01:19.7239579+03:00 [DEBG] szr: Wrote string package in 43ms size 472.63 KiB
+2023-01-23T15:01:19.7241067+03:00 [DEBG] szr: String hash is b6cJm9Lak9_t7Mdy691Lv_utpKa-j-VRVQG01CgCYMQ
+2023-01-23T15:01:20.2429461+03:00 [INFO] root: Server Version 0.64.0.0 -> Ready
+2023-01-23T15:01:20.2488030+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-23T15:01:20.8706938+03:00 [INFO] hub: Guessed server address to be "ss14://193.164.16.103:11212/"
+2023-01-23T15:01:21.2572948+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:46014
+2023-01-23T15:01:21.4598333+03:00 [INFO] hub: Successfully advertised to hub with address "ss14://193.164.16.103:11212/"
+2023-01-23T15:01:22.0961631+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:22.6716554+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:23.0933112+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:23.6398816+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:23.7348085+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:46060
+2023-01-23T15:01:23.7362888+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:46120
+2023-01-23T15:01:24.1296444+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:24.9812781+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:25.5503622+03:00 [INFO] statushost.http: GET /status from 195.60.230.145:60135
+2023-01-23T15:01:25.6951978+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:26.2376991+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:26.8919249+03:00 [INFO] statushost.http: GET /status from 195.60.230.145:60135
+2023-01-23T15:01:26.9457276+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:26.9960684+03:00 [INFO] statushost.http: GET /status from 68.201.116.93:58926
+2023-01-23T15:01:30.4336960+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:30.6510826+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:38250
+2023-01-23T15:01:31.3252506+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:31.7435366+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:38468
+2023-01-23T15:01:31.8072200+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:32.1876098+03:00 [INFO] statushost.http: GET /status from 176.108.25.244:56051
+2023-01-23T15:01:32.2956398+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:32.6794591+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:33.6975029+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:33.9109578+03:00 [INFO] statushost.http: GET /status from 94.231.136.98:61229
+2023-01-23T15:01:33.9378638+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:34.2138520+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:34.5072376+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:34.6187870+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:38906
+2023-01-23T15:01:35.1336926+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:35.2001760+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:35.6132440+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:36.2837756+03:00 [DEBG] res.mod: RESOLVING DEFAULT: System.Net.Sockets.resources, Version=6.0.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+2023-01-23T15:01:36.2840015+03:00 [DEBG] res.mod: RESOLVING DEFAULT: System.Net.Sockets.resources, Version=6.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+2023-01-23T15:01:36.5217806+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:37.2844109+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:38.1982157+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:38.7147621+03:00 [INFO] statushost.http: GET /status from 188.114.193.94:60199
+2023-01-23T15:01:41.2491790+03:00 [INFO] statushost.http: GET /status from 85.174.193.189:18626
+2023-01-23T15:01:41.4264187+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:45734
+2023-01-23T15:01:41.4336995+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:41.7124304+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:42.1134294+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:42.5271134+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:42.6982167+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:43.1599058+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:43.6511373+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:44.1683751+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:44.2296460+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:44.9228979+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:45.4277530+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:45.8531904+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:46.4956170+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:47.1802612+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:47.8470449+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:48.4071224+03:00 [INFO] statushost.http: GET /status from 188.234.90.225:53819
+2023-01-23T15:01:48.5606449+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:46932
+2023-01-23T15:01:48.7341744+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:49.5208544+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:49.8401820+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:50.4276545+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:50.6637287+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:50.8900472+03:00 [INFO] statushost.http: GET /status from 195.60.230.145:60233
+2023-01-23T15:01:52.4596643+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:52.7413914+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:52.9876770+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:53.9600214+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:55.1949974+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:55.2831167+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:01:55.3434444+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:01:55.5368458+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:48164
+2023-01-23T15:01:57.0809202+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:01:58.4921118+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:48640
+2023-01-23T15:01:58.6011676+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:00.1283242+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:48994
+2023-01-23T15:02:00.1354988+03:00 [INFO] statushost.http: GET /status from 89.23.156.91:5110
+2023-01-23T15:02:00.5557084+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:01.2158387+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:01.5111203+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:01.6275846+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:01.9264187+03:00 [INFO] statushost.http: GET /status from 188.138.164.65:59990
+2023-01-23T15:02:02.1199307+03:00 [INFO] statushost.http: GET /status from 109.106.137.63:63269
+2023-01-23T15:02:02.3732229+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:02.7486881+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:02.8694072+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:03.5556404+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:04.1182184+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:04.1834712+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:04.6915945+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:05.3432801+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:05.9916735+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:06.5279264+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:50428
+2023-01-23T15:02:06.7836377+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:06.9964420+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:07.4232820+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:07.4832791+03:00 [INFO] statushost.http: GET /status from 31.210.223.173:36429
+2023-01-23T15:02:08.1456194+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:08.7979401+03:00 [INFO] statushost.http: GET /status from 5.3.214.29:36548
+2023-01-23T15:02:09.0438888+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:09.8410554+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:10.1385916+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:10.5717859+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:11.4456649+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:11.9256456+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:12.0713561+03:00 [INFO] statushost.http: GET /status from 89.23.156.91:5110
+2023-01-23T15:02:12.6937640+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:12.8034139+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:51490
+2023-01-23T15:02:12.8864564+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:13.0661583+03:00 [INFO] statushost.http: GET /info from 5.3.214.29:36548
+2023-01-23T15:02:13.4311000+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:14.4196834+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:14.8901065+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:14.9568736+03:00 [INFO] statushost.http: GET /status from 89.23.156.91:5110
+2023-01-23T15:02:15.0136248+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:15.0397683+03:00 [INFO] statushost.http: GET /status from 176.214.202.66:9083
+2023-01-23T15:02:15.6082495+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:16.5296133+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:17.2215875+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:17.7493484+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:18.1347457+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:18.4396292+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:18.4608012+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:19.1213738+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:19.5496766+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:52708
+2023-01-23T15:02:19.6436778+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:19.7657417+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:20.0657717+03:00 [INFO] statushost.http: GET /status from 217.118.90.255:60875
+2023-01-23T15:02:20.2954856+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:20.4593535+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:20.9783151+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:21.6472227+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:21.6655142+03:00 [INFO] statushost.http: GET /status from 89.23.156.91:5110
+2023-01-23T15:02:21.6786782+03:00 [INFO] statushost.http: GET /status from 85.198.141.238:54070
+2023-01-23T15:02:22.2731249+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:22.7158710+03:00 [INFO] statushost.http: GET /status from 93.80.219.162:64126
+2023-01-23T15:02:22.8677642+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:23.1569931+03:00 [INFO] statushost.http: GET /status from 88.204.55.124:27912
+2023-01-23T15:02:23.4792805+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:23.7320494+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:47230
+2023-01-23T15:02:23.7368500+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:47260
+2023-01-23T15:02:23.7402820+03:00 [INFO] statushost.http: GET /status from 178.148.49.218:49002
+2023-01-23T15:02:24.1242380+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:24.5270030+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:24.9256501+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:25.5834643+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:25.8981134+03:00 [INFO] statushost.http: GET /status from 185.184.232.28:4006
+2023-01-23T15:02:26.3563048+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:26.5500587+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:53966
+2023-01-23T15:02:27.2628848+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:27.6484184+03:00 [INFO] statushost.http: GET /status from 46.63.204.199:13401
+2023-01-23T15:02:27.9175946+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:28.3891267+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:28.7417438+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:28.7714854+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:29.2049991+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:29.2391441+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:29.5666754+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:29.6796434+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:30.1011976+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:58579
+2023-01-23T15:02:30.2462241+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:30.4201687+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59334
+2023-01-23T15:02:30.7954214+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:30.8465653+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:31.0179557+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:31.0715708+03:00 [INFO] statushost.http: GET /status from 91.237.203.17:50824
+2023-01-23T15:02:31.1408641+03:00 [INFO] statushost.http: GET /status from 88.204.55.124:27912
+2023-01-23T15:02:31.3097958+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:31.6252274+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:31.9028213+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:32.2257166+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:32.2408331+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:32.8194841+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:33.0298511+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:33.1315615+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:33.4292935+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:55198
+2023-01-23T15:02:33.6276877+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:33.7319088+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:34.1797974+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:34.2909479+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:34.6595753+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:34.6956692+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:35.1537066+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:35.2506752+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:35.6277759+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:35.6710531+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:35.8914314+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:35.9885669+03:00 [INFO] statushost.http: GET /status from 95.57.53.30:11477
+2023-01-23T15:02:36.1397802+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:36.4330036+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:47412
+2023-01-23T15:02:36.6742404+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:37.0231139+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:37.2639607+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:38.0937541+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:38.5036883+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:39.4240590+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:39.5611784+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:39.6096962+03:00 [INFO] statushost.http: GET /status from 91.226.174.56:57006
+2023-01-23T15:02:40.1757628+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:40.8697722+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:41.6497841+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59343
+2023-01-23T15:02:41.8397509+03:00 [INFO] statushost.http: GET /status from 128.75.141.171:46930
+2023-01-23T15:02:41.9859130+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:42.6837075+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:42.9380683+03:00 [INFO] statushost.http: GET /status from 184.22.77.62:48155
+2023-01-23T15:02:43.0917336+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:43.5055676+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:44.0512310+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:44.5966566+03:00 [INFO] statushost.http: GET /status from 206.62.53.53:57805
+2023-01-23T15:02:44.6157761+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:45.0918589+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:45.5732949+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:45.9881319+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:46.0998031+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:46.6915838+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:47.1612670+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59551
+2023-01-23T15:02:47.5756683+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:47.9413251+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:49.1695741+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:49.7460709+03:00 [INFO] statushost.http: GET /status from 193.232.36.242:55844
+2023-01-23T15:02:49.7531834+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:50.2775205+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:50.8080282+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:51.3819110+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:51.9738837+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:52.5633749+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:53.0531628+03:00 [INFO] statushost.http: GET /status from 195.60.230.145:60289
+2023-01-23T15:02:53.2597498+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:53.7481960+03:00 [INFO] statushost.http: GET /status from 95.32.208.174:19992
+2023-01-23T15:02:53.8720162+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:54.7232690+03:00 [INFO] statushost.http: GET /status from 62.118.86.97:18020
+2023-01-23T15:02:54.8038608+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:56.6283630+03:00 [INFO] statushost.http: GET /status from 176.110.255.235:61800
+2023-01-23T15:02:56.9158343+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:56.9804213+03:00 [DEBG] net: "5.3.214.29:36516": Status changed to RespondedAwaitingApproval, reason: "Awaiting approval"
+2023-01-23T15:02:56.9831594+03:00 [DEBG] net: "5.3.214.29:36516": Status changed to RespondedConnect, reason: "Remotely requested connect"
+2023-01-23T15:02:57.0145393+03:00 [DEBG] net: "5.3.214.29:36516": Status changed to Connected, reason: "Connected to 53ACC60169547B11"
+2023-01-23T15:02:57.5406431+03:00 [INFO] statushost.http: GET /status from 88.204.55.124:27974
+2023-01-23T15:02:57.5935144+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:58.2894653+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:02:58.3404309+03:00 [INFO] net: Approved "5.3.214.29:36516" with username "moonash" user ID "a2f0ed7c-7138-4d69-9c22-5c9ba469432e" into the server
+2023-01-23T15:02:58.3429358+03:00 [INFO] net: Sending message name string table to 5.3.214.29.
+2023-01-23T15:02:58.3464644+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2023-01-23T15:02:58.3792867+03:00 [DEBG] szr: Received handshake from moonash.
+2023-01-23T15:02:58.3793570+03:00 [DEBG] szr: Sending 483977 bytes sized mapped strings package to moonash.
+2023-01-23T15:02:58.5958868+03:00 [DEBG] szr: Received handshake from moonash.
+2023-01-23T15:02:58.5959086+03:00 [DEBG] szr: Completing handshake with moonash.
+2023-01-23T15:02:58.5962271+03:00 [INFO] net: "5.3.214.29:36516": Connected
+2023-01-23T15:02:58.5992924+03:00 [INFO] cfg: 5.3.214.29:36516/a2f0ed7c-7138-4d69-9c22-5c9ba469432e: Sending server info...
+2023-01-23T15:02:58.6597158+03:00 [DEBG] srv: Client connecting, unpausing automatically.
+2023-01-23T15:02:59.0181199+03:00 [INFO] root: Session moonash transferred to entity 21181.
+2023-01-23T15:02:59.1772527+03:00 [INFO] statushost.http: GET /status from 178.148.49.218:34889
+2023-01-23T15:02:59.2858144+03:00 [DEBG] nodegroup: Updated node groups in 85.4881ms. 2431 new groups, 9080 nodes processed.
+2023-01-23T15:02:59.3919037+03:00 [DEBG] admin.logs: Saving 9 admin logs.
+2023-01-23T15:02:59.9564925+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -6, msgT: 0, cT: 6, player: moonash
+2023-01-23T15:02:59.9576916+03:00 [DEBG] info: Client requested rules.
+2023-01-23T15:03:00.0229955+03:00 [INFO] statushost.http: GET /status from 79.139.150.111:1693
+2023-01-23T15:03:00.0440894+03:00 [INFO] statushost.http: GET /status from 185.44.145.102:16927
+2023-01-23T15:03:00.1772942+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:01.2138767+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:01.2995701+03:00 [INFO] statushost.http: GET /status from 178.46.204.103:63003
+2023-01-23T15:03:02.4257527+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:02.5405739+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:02.6915148+03:00 [INFO] statushost.http: GET /status from 5.44.168.148:53348
+2023-01-23T15:03:03.6372405+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:04.2548246+03:00 [INFO] statushost.http: GET /status from 194.4.164.152:51284
+2023-01-23T15:03:04.2558472+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:04.7813110+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:05.5575783+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:06.1006576+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:06.3435912+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:06.6017920+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:07.5348298+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:08.0721500+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:08.2574991+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:09.0818663+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:09.1371474+03:00 [INFO] statushost.http: GET /status from 79.105.58.149:49635
+2023-01-23T15:03:09.2291810+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:09.9430963+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:09.9633990+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:10.0694385+03:00 [INFO] statushost.http: GET /status from 79.105.58.149:49635
+2023-01-23T15:03:10.3913132+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:10.9220825+03:00 [INFO] statushost.http: GET /status from 212.124.7.165:14452
+2023-01-23T15:03:10.9633627+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:11.3355907+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:12.0251994+03:00 [INFO] statushost.http: GET /status from 212.220.211.59:56717
+2023-01-23T15:03:12.0578441+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:12.7778225+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:13.5938068+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:14.1912892+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:14.8502728+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:15.3236900+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:16.3113291+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:17.0838288+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:17.6457418+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59676
+2023-01-23T15:03:17.8917405+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59977
+2023-01-23T15:03:18.2698376+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:59977
+2023-01-23T15:03:19.4314794+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:56016
+2023-01-23T15:03:19.4395445+03:00 [INFO] statushost.http: GET /status from 93.72.128.160:60011
+2023-01-23T15:03:19.9779061+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:56016
+2023-01-23T15:03:20.4536809+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:56016
+2023-01-23T15:03:21.1403771+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:48432
+2023-01-23T15:03:23.7364664+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:48492
+2023-01-23T15:03:23.7436119+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:48578
+2023-01-23T15:03:29.8407780+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52817
+2023-01-23T15:03:29.9061688+03:00 [INFO] statushost.http: GET /status from 130.255.15.163:61422
+2023-01-23T15:03:40.4904587+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:39528
+2023-01-23T15:03:42.7527978+03:00 [INFO] statushost.http: GET /status from 188.123.59.165:53563
+2023-01-23T15:03:46.2326569+03:00 [INFO] statushost.http: GET /status from 195.19.121.66:12131
+2023-01-23T15:03:47.5642387+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:40954
+2023-01-23T15:03:47.7223200+03:00 [INFO] statushost.http: GET /status from 92.38.120.116:54063
+2023-01-23T15:03:50.2688101+03:00 [INFO] statushost.http: GET /status from 5.44.172.109:64107
+2023-01-23T15:03:54.4444099+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:42234
+2023-01-23T15:03:55.2857781+03:00 [INFO] statushost.http: GET /status from 212.252.63.243:58982
+2023-01-23T15:03:58.0990129+03:00 [INFO] statushost.http: GET /status from 79.139.150.111:2282
+2023-01-23T15:04:01.5532947+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:43484
+2023-01-23T15:04:02.8142518+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:43668
+2023-01-23T15:04:04.5765635+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:43944
+2023-01-23T15:04:04.8807661+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52886
+2023-01-23T15:04:05.7641094+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52886
+2023-01-23T15:04:05.9890436+03:00 [INFO] statushost.http: GET /status from 89.109.45.90:17542
+2023-01-23T15:04:07.2868322+03:00 [INFO] statushost.http: GET /status from 91.235.225.200:20015
+2023-01-23T15:04:08.5388832+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:44696
+2023-01-23T15:04:11.0115500+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:45172
+2023-01-23T15:04:15.4300649+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:45914
+2023-01-23T15:04:17.5398618+03:00 [INFO] statushost.http: GET /status from 5.143.63.147:57994
+2023-01-23T15:04:17.6183404+03:00 [INFO] statushost.http: GET /status from 189.122.236.202:59656
+2023-01-23T15:04:18.0143489+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:46426
+2023-01-23T15:04:22.0207654+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52944
+2023-01-23T15:04:22.5440518+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:47386
+2023-01-23T15:04:23.3362653+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52944
+2023-01-23T15:04:23.6700109+03:00 [INFO] statushost.http: GET /status from 83.234.154.190:64348
+2023-01-23T15:04:23.7308016+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:49602
+2023-01-23T15:04:23.7456790+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:49708
+2023-01-23T15:04:25.0222814+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:47800
+2023-01-23T15:04:26.2922250+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52944
+2023-01-23T15:04:27.7348487+03:00 [INFO] statushost.http: GET /status from 91.237.203.17:50883
+2023-01-23T15:04:28.8321385+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -2, msgT: 5340, cT: 5342, player: moonash
+2023-01-23T15:04:28.8438698+03:00 [WARN] net.ent: Got late MsgEntity! Diff: -2, msgT: 5340, cT: 5342, player: moonash
+2023-01-23T15:04:28.8464010+03:00 [DEBG] admin.logs: Saving 1 admin logs.
+2023-01-23T15:04:29.4181496+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:48690
+2023-01-23T15:04:30.2790830+03:00 [INFO] statushost.http: GET /status from 85.198.141.238:54148
+2023-01-23T15:04:31.4706545+03:00 [INFO] statushost.http: GET /status from 188.244.248.33:11606
+2023-01-23T15:04:32.0123764+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:49088
+2023-01-23T15:04:32.4381647+03:00 [INFO] statushost.http: GET /status from 82.209.106.75:29037
+2023-01-23T15:04:32.9296488+03:00 [INFO] statushost.http: GET /status from 109.229.72.88:37589
+2023-01-23T15:04:33.8506057+03:00 [DEBG] admin.logs: Saving 3 admin logs.
+2023-01-23T15:04:36.4297344+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:49796
+2023-01-23T15:04:37.1322975+03:00 [INFO] statushost.http: GET /status from 91.204.150.26:60309
+2023-01-23T15:04:37.1559906+03:00 [INFO] statushost.http: GET /status from 188.242.9.122:36982
+2023-01-23T15:04:38.8319950+03:00 [INFO] statushost.http: GET /status from 37.212.48.34:26116
+2023-01-23T15:04:38.8511745+03:00 [DEBG] admin.logs: Saving 1 admin logs.
+2023-01-23T15:04:39.0141644+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:50154
+2023-01-23T15:04:40.8585250+03:00 [INFO] statushost.http: GET /status from 5.79.235.210:55833
+2023-01-23T15:04:43.5660750+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:50998
+2023-01-23T15:04:44.5222243+03:00 [INFO] statushost.http: GET /status from 91.226.154.182:65270
+2023-01-23T15:04:45.9049348+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:04:46.0092840+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:51460
+2023-01-23T15:04:47.0204442+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:04:49.5555477+03:00 [INFO] statushost.http: GET /status from 136.169.169.233:53636
+2023-01-23T15:04:50.4326662+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:52240
+2023-01-23T15:04:52.6123770+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:04:52.8928747+03:00 [INFO] statushost.http: GET /status from 206.62.53.53:57891
+2023-01-23T15:04:53.0165667+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:52868
+2023-01-23T15:04:56.8894807+03:00 [INFO] statushost.http: GET /status from 37.212.14.54:57878
+2023-01-23T15:04:57.5533898+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:53750
+2023-01-23T15:04:58.3396216+03:00 [INFO] statushost.http: GET /status from 188.186.47.141:49662
+2023-01-23T15:05:00.0141894+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:54226
+2023-01-23T15:05:03.6184322+03:00 [DEBG] net: "5.3.214.29:36516": Status changed to Disconnected, reason: "Client shutting down"
+2023-01-23T15:05:03.6186593+03:00 [INFO] net: "5.3.214.29:36516": Disconnected ("Client shutting down")
+2023-01-23T15:05:03.6200811+03:00 [DEBG] srv: Last client disconnected, pausing automatically.
+2023-01-23T15:05:03.6484438+03:00 [DEBG] play_time: Saved 2 trackers for moonash
+2023-01-23T15:05:04.7612124+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:55144
+2023-01-23T15:05:05.1763573+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:07.0147735+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:55532
+2023-01-23T15:05:09.2643630+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:09.7397923+03:00 [INFO] statushost.http: GET /status from 80.244.43.233:53795
+2023-01-23T15:05:12.0575047+03:00 [INFO] statushost.http: GET /status from 109.254.221.3:63586
+2023-01-23T15:05:12.9204090+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:14.0128430+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:56756
+2023-01-23T15:05:14.7164013+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:15.7604403+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:21.0285859+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:57894
+2023-01-23T15:05:21.1435386+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:50798
+2023-01-23T15:05:22.1046413+03:00 [INFO] statushost.http: GET /status from 46.146.32.166:63682
+2023-01-23T15:05:22.6665937+03:00 [INFO] statushost.http: GET /status from 212.79.123.208:16579
+2023-01-23T15:05:23.7364205+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:50838
+2023-01-23T15:05:23.7427020+03:00 [INFO] statushost.http: GET /status from 104.243.33.183:50894
+2023-01-23T15:05:24.0441644+03:00 [INFO] statushost.http: GET /status from 178.176.212.211:4489
+2023-01-23T15:05:25.5234924+03:00 [INFO] statushost.http: GET /status from 45.129.200.73:52574
+2023-01-23T15:05:28.5694531+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:59540
+2023-01-23T15:05:29.2763292+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:34.9764622+03:00 [INFO] statushost.http: GET /status from 80.88.50.76:52996
+2023-01-23T15:05:35.6581607+03:00 [INFO] statushost.http: GET /status from 176.96.249.93:41194
+2023-01-23T15:05:40.4430544+03:00 [INFO] statushost.http: GET /status from 46.42.250.59:1071
+2023-01-23T15:05:41.3282363+03:00 [INFO] statushost.http: GET /status from 94.242.171.7:27059
+2023-01-23T15:05:42.4814625+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:33962
+2023-01-23T15:05:43.7744859+03:00 [INFO] statushost.http: GET /status from 159.69.15.68:34186
+2023-01-23T15:05:45.4647344+03:00 [INFO] statushost.http: GET /status from 188.170.253.149:51664
+2023-01-23T15:05:45.7264555+03:00 [INFO] statushost.http: GET /status from 46.42.250.59:1071
