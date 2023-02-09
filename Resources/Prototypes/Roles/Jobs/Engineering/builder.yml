@@ -22,10 +22,10 @@
   equipment:
     head: ClothingHeadHatHardhatYellow
     jumpsuit: ClothingUniformJumpsuitEngineering
-    back: #ожидаем спрайтеров
+    back: ClothingBackpackEngineering
     shoes: ClothingShoesBootsMag
     outerClothing: ClothingOuterVestHazard
-    id: #ожидаем спрайтеров
+    id: EngineerPDA
     eyes: ClothingEyesGlassesMeson
     ears: ClothingHeadsetEngineering
   innerclothingskirt: ClothingUniformJumpskirtEngineering
