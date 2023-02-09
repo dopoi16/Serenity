@@ -1,0 +1,33 @@
+- type: job
+  id: Builder
+  name: job-name-builder
+  playTimeTracker: JobBuilder
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 36000 # Corvax-RoleTime
+    - !type:OverallPlaytimeRequirement
+      time: 36000
+  startingGear: BuilderGear
+  icon: "StationEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: BuilderGear
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+    jumpsuit: ClothingUniformJumpsuitEngineering
+    back: ClothingBackpackEngineering
+    shoes: ClothingShoesBootsMag
+    outerClothing: ClothingOuterVestHazard
+    id: EngineerPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetEngineering
+  innerclothingskirt: ClothingUniformJumpskirtEngineering
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled
