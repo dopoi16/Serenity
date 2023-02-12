@@ -47,6 +47,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Builder
 
 - type: department
   id: Medical
