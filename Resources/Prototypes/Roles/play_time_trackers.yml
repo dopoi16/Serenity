@@ -130,5 +130,5 @@
 - type: playTimeTracker
   id: JobZookeeper
   
--type: playTimeTracker
+- type: playTimeTracker
   id: JobBuilder
