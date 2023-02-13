@@ -794,3 +794,20 @@
     borderColor: "#774705"
   - type: Icon
     state: pda-detective
+
+- type: entity
+  parent: BasePDA
+  id: BuilderPDA
+  name: builder PDA
+  description: It smells of dust and construction welding...
+  components:
+  - type: PDA
+    id: BuilderIDCard
+  - type: Appearence
+    visuals:
+      - type: PDAVisualizer
+        state: pda-builder
+  - type: PDABorderColor
+    borderColor: "b8860b"
+  - type: Icon
+    state: pda-builder
